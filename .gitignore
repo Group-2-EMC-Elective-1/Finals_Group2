@@ -58,3 +58,10 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+Sudoku_Finals/[Ll]ibrary/
+Sudoku_Finals/[Tt]emp/
+Sudoku_Finals/[Oo]bj/
+Sudoku_Finals/[Bb]uild/
+Sudoku_Finals/[Bb]uilds/
+Sudoku_Finals/[Ll]ogs/
+Sudoku_Finals/[Mm]emoryCaptures/
