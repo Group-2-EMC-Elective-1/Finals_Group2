@@ -22,7 +22,7 @@ public class SudokuGrid : MonoBehaviour
             Debug.LogError("This game object needs gridsquare script!");
         }
         CreateGrid();
-        SetGridNum("Easy");
+        SetGridNum(GameSettings.instance.GetGameMode());
     }
 
     private void CreateGrid()
