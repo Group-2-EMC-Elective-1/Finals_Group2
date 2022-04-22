@@ -13,6 +13,7 @@ public class SudokuGrid : MonoBehaviour
     public float squareScale = 1f;
 
     private List<GameObject> grids = new List<GameObject>();
+    private int selectedGriddata = -1;
 
     private void Start()
     {
@@ -21,7 +22,7 @@ public class SudokuGrid : MonoBehaviour
             Debug.LogError("This game object needs gridsquare script!");
         }
         CreateGrid();
-        SetGridNum();
+        SetGridNum("Easy");
     }
 
     private void CreateGrid()
@@ -30,12 +31,12 @@ public class SudokuGrid : MonoBehaviour
         SetSquarePos();
     }
 
-    private void SetGridNum()
+    private void SetGridNum(string level)
     {
-        foreach(var square in grids)
-        {
-            square.GetComponent<GridSquare>().SetNumber(Random.Range(0, 10));
-        }
+        selectedGriddata = Random.Range(0, SudokuData.instance.sudokuGame[level].Count);
+        var data = SudokuData.instance.sudokuGame[level][selectedGriddata];
+
+        SetGridSqData(data);
     }
 
     private void SpawnGridSquares()
@@ -73,6 +74,14 @@ public class SudokuGrid : MonoBehaviour
             var posYoffset = offset.y * rowNum;
             square.GetComponent<RectTransform>().anchoredPosition = new Vector2(startPos.x + posXoffset, startPos.y - posYoffset);
             columnNum++;
+        }
+    }
+
+    private void SetGridSqData(SudokuData.SudokuBoardData data)
+    {
+        for(int index = 0; index < grids.Count; index++)
+        {
+            grids[index].GetComponent<GridSquare>().SetNumber(data.unsolvedData[index]);
         }
     }
 }
