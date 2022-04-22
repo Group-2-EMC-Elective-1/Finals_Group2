@@ -11,7 +11,9 @@ GameObject:
   - component: {fileID: 3820174073008317715}
   - component: {fileID: 8041326040683986303}
   - component: {fileID: 5249119591231357824}
+  - component: {fileID: -2944206924083462922}
   - component: {fileID: 2408245330139870665}
+  - component: {fileID: 7313762054929786702}
   m_Layer: 5
   m_Name: NumberButton
   m_TagString: Untagged
@@ -76,6 +78,19 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!65 &-2944206924083462922
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5678199381801186242}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 49.815147, y: 104.38089, z: 1}
+  m_Center: {x: 0.39091536, y: -0.3894467, z: 0}
 --- !u!114 &2408245330139870665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -118,3 +133,16 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 5249119591231357824}
   value: 1
+--- !u!114 &7313762054929786702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5678199381801186242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64ad39fe0ee869a409b339e5e8893b4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 3820174073008317715}
