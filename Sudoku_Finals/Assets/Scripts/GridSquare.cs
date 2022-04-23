@@ -43,7 +43,7 @@ public class GridSquare : Selectable, IPointerClickHandler, ISubmitHandler,IPoin
         DisplayText();
     }
     
-    public void OnPointerClick(PointerEventData eventData)
+    public void OnPointerClick(PointerEventData eventData)//click?
     {
         selected = true;
         GameEvent.squareSelectedMethod(squareIndex_);
@@ -76,7 +76,7 @@ public class GridSquare : Selectable, IPointerClickHandler, ISubmitHandler,IPoin
 
     public void OnSquareSelected(int squareIndex)
     {
-        if (squareIndex_ != squareIndex)
+        if (squareIndex_ != squareIndex)//when clicking other square
         {
             selected = false;
         }

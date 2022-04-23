@@ -216,6 +216,22 @@ PrefabInstance:
       propertyPath: value
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 2819893228835648015, guid: 6c1e64d9051179b4ba33385ed0632f87, type: 3}
+      propertyPath: m_Size.x
+      value: 79.6369
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819893228835648015, guid: 6c1e64d9051179b4ba33385ed0632f87, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.16813087
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819893228835648015, guid: 6c1e64d9051179b4ba33385ed0632f87, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.42699432
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819893228835648015, guid: 6c1e64d9051179b4ba33385ed0632f87, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3820174073008317715, guid: 6c1e64d9051179b4ba33385ed0632f87, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -341,6 +357,18 @@ PrefabInstance:
     - target: {fileID: 2408245330139870665, guid: 6c1e64d9051179b4ba33385ed0632f87, type: 3}
       propertyPath: value
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819893228835648015, guid: 6c1e64d9051179b4ba33385ed0632f87, type: 3}
+      propertyPath: m_Size.x
+      value: 71.75751
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819893228835648015, guid: 6c1e64d9051179b4ba33385ed0632f87, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.0765152
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819893228835648015, guid: 6c1e64d9051179b4ba33385ed0632f87, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.42699432
       objectReference: {fileID: 0}
     - target: {fileID: 3820174073008317715, guid: 6c1e64d9051179b4ba33385ed0632f87, type: 3}
       propertyPath: m_Pivot.x
@@ -543,6 +571,18 @@ PrefabInstance:
       propertyPath: value
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 2819893228835648015, guid: 6c1e64d9051179b4ba33385ed0632f87, type: 3}
+      propertyPath: m_Size.x
+      value: 71.20778
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819893228835648015, guid: 6c1e64d9051179b4ba33385ed0632f87, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.015123367
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819893228835648015, guid: 6c1e64d9051179b4ba33385ed0632f87, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.42699432
+      objectReference: {fileID: 0}
     - target: {fileID: 3820174073008317715, guid: 6c1e64d9051179b4ba33385ed0632f87, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -642,37 +682,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3820174073008317715, guid: 6c1e64d9051179b4ba33385ed0632f87, type: 3}
   m_PrefabInstance: {fileID: 550633261}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &649139018 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5678199381801186242, guid: 6c1e64d9051179b4ba33385ed0632f87, type: 3}
-  m_PrefabInstance: {fileID: 1050939606849188176}
-  m_PrefabAsset: {fileID: 0}
---- !u!61 &649139022
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 649139018}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!1 &689103282
 GameObject:
   m_ObjectHideFlags: 0
@@ -865,6 +874,18 @@ PrefabInstance:
       propertyPath: value
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 2819893228835648015, guid: 6c1e64d9051179b4ba33385ed0632f87, type: 3}
+      propertyPath: m_Size.x
+      value: 70.291595
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819893228835648015, guid: 6c1e64d9051179b4ba33385ed0632f87, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.10674095
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819893228835648015, guid: 6c1e64d9051179b4ba33385ed0632f87, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.42699432
+      objectReference: {fileID: 0}
     - target: {fileID: 3820174073008317715, guid: 6c1e64d9051179b4ba33385ed0632f87, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -990,6 +1011,18 @@ PrefabInstance:
     - target: {fileID: 2408245330139870665, guid: 6c1e64d9051179b4ba33385ed0632f87, type: 3}
       propertyPath: value
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819893228835648015, guid: 6c1e64d9051179b4ba33385ed0632f87, type: 3}
+      propertyPath: m_Size.x
+      value: 71.43878
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819893228835648015, guid: 6c1e64d9051179b4ba33385ed0632f87, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.052633286
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819893228835648015, guid: 6c1e64d9051179b4ba33385ed0632f87, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.42699432
       objectReference: {fileID: 0}
     - target: {fileID: 3820174073008317715, guid: 6c1e64d9051179b4ba33385ed0632f87, type: 3}
       propertyPath: m_Pivot.x
@@ -1161,6 +1194,18 @@ PrefabInstance:
       propertyPath: value
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 2819893228835648015, guid: 6c1e64d9051179b4ba33385ed0632f87, type: 3}
+      propertyPath: m_Size.x
+      value: 70.65807
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819893228835648015, guid: 6c1e64d9051179b4ba33385ed0632f87, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.2899742
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819893228835648015, guid: 6c1e64d9051179b4ba33385ed0632f87, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.42699432
+      objectReference: {fileID: 0}
     - target: {fileID: 3820174073008317715, guid: 6c1e64d9051179b4ba33385ed0632f87, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1298,6 +1343,18 @@ PrefabInstance:
     - target: {fileID: 2408245330139870665, guid: 6c1e64d9051179b4ba33385ed0632f87, type: 3}
       propertyPath: m_Colors.m_NormalColor.r
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819893228835648015, guid: 6c1e64d9051179b4ba33385ed0632f87, type: 3}
+      propertyPath: m_Size.x
+      value: 70.40377
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819893228835648015, guid: 6c1e64d9051179b4ba33385ed0632f87, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.4144249
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819893228835648015, guid: 6c1e64d9051179b4ba33385ed0632f87, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.42699432
       objectReference: {fileID: 0}
     - target: {fileID: 3820174073008317715, guid: 6c1e64d9051179b4ba33385ed0632f87, type: 3}
       propertyPath: m_Pivot.x
@@ -1520,6 +1577,18 @@ PrefabInstance:
       propertyPath: m_Colors.m_NormalColor.r
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2819893228835648015, guid: 6c1e64d9051179b4ba33385ed0632f87, type: 3}
+      propertyPath: m_Size.x
+      value: 69.88254
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819893228835648015, guid: 6c1e64d9051179b4ba33385ed0632f87, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.15383911
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819893228835648015, guid: 6c1e64d9051179b4ba33385ed0632f87, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.42699432
+      objectReference: {fileID: 0}
     - target: {fileID: 3820174073008317715, guid: 6c1e64d9051179b4ba33385ed0632f87, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1626,6 +1695,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1417179912}
     m_Modifications:
+    - target: {fileID: 2819893228835648015, guid: 6c1e64d9051179b4ba33385ed0632f87, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3820174073008317715, guid: 6c1e64d9051179b4ba33385ed0632f87, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

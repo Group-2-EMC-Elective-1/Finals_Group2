@@ -40,6 +40,6 @@ public class DragMouseMove : MonoBehaviour
     }
     private void OnMouseUpAsButton()
     {
-        transform.position = lastPos;
+        transform.position = lastPos;//resets to original position after dragging
     }
 }

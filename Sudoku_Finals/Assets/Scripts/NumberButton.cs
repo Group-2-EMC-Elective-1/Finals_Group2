@@ -15,8 +15,21 @@ public class NumberButton : Selectable, IPointerClickHandler, ISubmitHandler,IPo
 
     public void OnSubmit(BaseEventData eventData)
     {
-        
+
     }
-  
+    private void OnMouseUpAsButton()
+    {
+        GameEvent.UpdateSquareNumberMethod(value);
+    }
+
+    /*private void OnCollisionEnter2D(Collision2D square)
+    {
+        //GameObject s = square.gameObject;
+        //find square's script for is selected, then apply number in onmouseup
+        //s.GetComponent<GridSquare>().isSelected();
+    should enable highlighting on collision
+    }*/
+
+
 }
 
