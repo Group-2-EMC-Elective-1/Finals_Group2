@@ -17,7 +17,7 @@ public class DragMouseMove : MonoBehaviour
     {
         mainCamera = Camera.main;
         Vector3 screenPos = mainCamera.WorldToScreenPoint(target.position);
-        lastPos = this.transform.position; ;
+        lastPos = transform.position; ;
     }
 
     void OnMouseDown()
@@ -38,7 +38,7 @@ public class DragMouseMove : MonoBehaviour
             transform.position = camRay.GetPoint(planeDistance) + offset;
         Vector3 screenPos = mainCamera.WorldToScreenPoint(target.position);
     }
-    private void OnMouseUpAsButton()
+    private void OnMouseUp()
     {
         transform.position = lastPos;//resets to original position after dragging
     }

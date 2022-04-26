@@ -7,7 +7,15 @@ using UnityEngine.EventSystems;
 public class NumberButton : Selectable, IPointerClickHandler, ISubmitHandler,IPointerUpHandler, IPointerExitHandler
 {
     public int value = 0;
-    
+    //public Rigidbody2D rb;
+
+    /*void Start()
+    {
+       // rb = GetComponent<Rigidbody2D>();
+       // rb.isKinematic = true;
+       // rb.detectCollisions = true;
+    }*/
+
     public void OnPointerClick(PointerEventData eventData)
     {
         GameEvent.UpdateSquareNumberMethod(value);
@@ -17,19 +25,19 @@ public class NumberButton : Selectable, IPointerClickHandler, ISubmitHandler,IPo
     {
 
     }
-    private void OnMouseUpAsButton()
+    private void OnMouseUp()
     {
         GameEvent.UpdateSquareNumberMethod(value);
     }
 
-    /*private void OnCollisionEnter2D(Collision2D square)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        //GameObject s = square.gameObject;
+        GameObject s = other.gameObject;
+        Debug.Log("Connected to: " + s);
         //find square's script for is selected, then apply number in onmouseup
         //s.GetComponent<GridSquare>().isSelected();
-    should enable highlighting on collision
-    }*/
+    //should enable highlighting on collision
+    }
 
 
 }
-

@@ -81,4 +81,14 @@ public class GridSquare : Selectable, IPointerClickHandler, ISubmitHandler,IPoin
             selected = false;
         }
     }
+
+    public void OnTriggerStay2D(Collider2D collision)
+    {
+        Debug.Log(collision + "Is in my " + this.gameObject);
+        selected = true;
+    }
+    public void OnTriggerExit2D(Collider2D collision)
+    {
+        selected = false;
+    }
 }
