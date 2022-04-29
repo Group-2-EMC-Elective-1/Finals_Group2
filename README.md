@@ -1,7 +1,7 @@
 # Finals_Group2
 
-Johannes Vince Gomez - created the dragging aspect, 
+Johannes Vince Gomez - number dragging , 
 
-Dustin Macorol - created assets, 
+Dustin Macorol - created assets, lives, timer, game over, wrong answer detection
 
-Ryan Miguel Gervacio - built the skeleton program, 
+Ryan Miguel Gervacio - scenes clean ups, game event, gridsquare, square data randomized, main menu 
