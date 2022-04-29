@@ -86,6 +86,8 @@ public class SudokuGrid : MonoBehaviour
         for(int index = 0; index < grids.Count; index++)
         {
             grids[index].GetComponent<GridSquare>().SetNumber(data.unsolvedData[index]);
+            grids[index].GetComponent<GridSquare>().SetCorrectNumber(data.solvedData[index]);
+            grids[index].GetComponent<GridSquare>().SetHasDefaultValue(data.unsolvedData[index] != 0 && data.unsolvedData[index] == data.solvedData[index]);
         }
     }
 }

@@ -2,11 +2,142 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c97558d-101a-4ed7-b95a-2178efc12f02" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GridSquare.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/GridSquare.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Sudoku_Finals/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sudoku_Finals/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameEvent.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GridSquare.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GridSquare.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SudokuData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SudokuData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/SudokuGrid.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SudokuGrid.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/GameOver.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/GameOver/Background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/GameOver/Background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/GameOver/ContinueButtonAd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/GameOver/ContinueButtonAd.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/GameOver/ExitButton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/GameOver/ExitButton.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/GameOver/GameOverText.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/GameOver/GameOverText.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/GameOver/GameSceneOverview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/GameOver/GameSceneOverview.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/GameOver/Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/GameOver/Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/GameScreen/BoardBackground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/GameScreen/BoardBackground.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/GameScreen/EraseButton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/GameScreen/EraseButton.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/GameScreen/GameSceneOverveiw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/GameScreen/GameSceneOverveiw.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/GameScreen/NotesOff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/GameScreen/NotesOff.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/GameScreen/NotesOn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/GameScreen/NotesOn.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/GameScreen/PauseButton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/GameScreen/PauseButton.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/GameScreen/SmallBackButton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/GameScreen/SmallBackButton.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/GameScreen/Timer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/GameScreen/Timer.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/GameScreen/X_Off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/GameScreen/X_Off.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/GameScreen/X_On.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/GameScreen/X_On.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/GameScreen/hourglass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/GameScreen/hourglass.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/Icon/Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/Icon/Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/Icon/Rounded Rectangle 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/Icon/Rounded Rectangle 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/Icon/SplashScreen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/Icon/SplashScreen.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/MainMenu/Background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/MainMenu/Background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/MainMenu/ContinueButton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/MainMenu/ContinueButton.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/MainMenu/D.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/MainMenu/D.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/MainMenu/EasyButton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/MainMenu/EasyButton.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/MainMenu/HardButton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/MainMenu/HardButton.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/MainMenu/K.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/MainMenu/K.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/MainMenu/LevelSelectOverview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/MainMenu/LevelSelectOverview.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/MainMenu/MainMenuOverview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/MainMenu/MainMenuOverview.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/MainMenu/MediumButton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/MainMenu/MediumButton.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/MainMenu/O.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/MainMenu/O.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/MainMenu/OpenDataPrivacyPageButton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/MainMenu/OpenDataPrivacyPageButton.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/MainMenu/PlayButton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/MainMenu/PlayButton.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/MainMenu/S.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/MainMenu/S.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/MainMenu/SudokuIcon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SudokuGraphics/MainMenu/SudokuIcon.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/MainMenu/Title.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/MainMenu/Title.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/MainMenu/U.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/MainMenu/U.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/MainMenu/U_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/MainMenu/U_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/MainMenu/VeryHardButton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/MainMenu/VeryHardButton.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/PausePopup.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/PausePopup/ContinueButton1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/PausePopup/ContinueButton1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/PausePopup/ExitButton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/PausePopup/ExitButton.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/PausePopup/MovingSquare1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/PausePopup/MovingSquare1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/PausePopup/MovingSquare2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/PausePopup/MovingSquare2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/PausePopup/PausePopupOverview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/PausePopup/PausePopupOverview.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/PausePopup/PauseText.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/PausePopup/PauseText.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/PausePopup/Rounded Rectangle 2 copy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/PausePopup/Rounded Rectangle 2 copy.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/PausePopup/Time.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/PausePopup/Time.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/PausePopup/TimeNumbers.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/PausePopup/TimeNumbers.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/SudokuData.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/SudokuData/Easy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/SudokuData/Easy.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/SudokuData/Hard.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/SudokuData/Hard.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/SudokuData/Medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/SudokuData/Medium.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/SudokuData/VeryHard.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/SudokuData/VeryHard.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/WinPopup.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/WinPopup/Background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/WinPopup/Background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/WinPopup/ExitButton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/WinPopup/ExitButton.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/WinPopup/GameOverText.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/WinPopup/GameOverText.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/WinPopup/Play Again.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/WinPopup/Play Again.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/WinPopup/Time.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/WinPopup/Time.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/WinPopup/WinPopupMockup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SudokuGraphics/WinPopup/WinPopupMockup.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Finals_elective1/Assets/Scripts/Clock.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Finals_elective1/Assets/Scripts/Clock.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Finals_elective1/Assets/Scripts/GameEvent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Finals_elective1/Assets/Scripts/GameEvent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Finals_elective1/Assets/Scripts/GameOverMenu.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Finals_elective1/Assets/Scripts/GameOverMenu.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Finals_elective1/Assets/Scripts/GridSquare.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Finals_elective1/Assets/Scripts/GridSquare.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Finals_elective1/Assets/Scripts/Lives.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Finals_elective1/Assets/Scripts/Lives.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Finals_elective1/Assets/Scripts/SudokuGrid.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Finals_elective1/Assets/Scripts/SudokuGrid.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +146,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lives.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NumberButton.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -26,16 +158,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Discover.Launch.Via.Unity": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "rider.run.widget.enabled.cache": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;rider.run.widget.enabled.cache&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2020.3.18f1\Editor\Unity.exe" />
@@ -76,6 +208,8 @@
       <updated>1650638701016</updated>
       <workItem from="1650638707302" duration="119000" />
       <workItem from="1650639334989" duration="3221000" />
+      <workItem from="1651196989163" duration="184000" />
+      <workItem from="1651197757904" duration="891000" />
     </task>
     <servers />
   </component>
