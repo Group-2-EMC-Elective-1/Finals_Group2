@@ -1,6 +1,6 @@
 # Finals_Group2
 
-Johannes Vince Gomez - number dragging , 
+Johannes Vince Gomez - number dragging , saving
 
 Dustin Macorol - created assets, lives, timer, game over, wrong answer detection
 
