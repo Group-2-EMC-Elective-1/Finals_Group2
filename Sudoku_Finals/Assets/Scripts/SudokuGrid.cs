@@ -22,11 +22,18 @@ public class SudokuGrid : MonoBehaviour
             Debug.LogError("This game object needs gridsquare script!");
         }
         CreateGrid();
+        if (GameSettings.instance.GetContinuePreviousGame())
+            SetGridFormFile();
+        else
         SetGridNum(GameSettings.instance.GetGameMode());
     }
 
     private void CreateGrid()
     {
+        if (GameSettings.instance.GetContinuePreviousGame())
+            SetGridFormFile();
+        else
+            SetGridNum(GameSettings.instance.GetGameMode());
         SpawnGridSquares();
         SetSquarePos();
     }
@@ -89,5 +96,40 @@ public class SudokuGrid : MonoBehaviour
             grids[index].GetComponent<GridSquare>().SetCorrectNumber(data.solvedData[index]);
             grids[index].GetComponent<GridSquare>().SetHasDefaultValue(data.unsolvedData[index] != 0 && data.unsolvedData[index] == data.solvedData[index]);
         }
+    }
+
+
+    void SetGridFormFile()
+    {
+        string level = GameSettings.instance.GetGameMode();
+        selectedGriddata = Config.ReadGameBoardLevel();
+        var data = Config.ReadGridData();
+
+        SetGridSqData(data);
+    }
+
+    private void OnDisable()
+    {
+        var solved_data = SudokuData.instance.sudokuGame[GameSettings.instance.GetGameMode()][selectedGriddata].solvedData;
+        int[] unsolved_data = new int[81];
+
+        for (int i = 0; i < grids.Count; i++)
+        {
+            var comp = grids[i].GetComponent<GridSquare>();
+            unsolved_data[i] = comp.GetSquareNumber();
+            //string key = "square_note:" i.ToString();
+            //grid_notes.Add(key, comp.GetSquareNotes()); //AINT GOT NOTES
+        }
+        SudokuData.SudokuBoardData current_game_data = new SudokuData.SudokuBoardData(unsolved_data, solved_data);
+
+        if (GameSettings.instance.GetExitAfterWon() == false)
+        {
+            Config.SaveBoardData(current_game_data,
+                GameSettings.instance.GetGameMode(),
+                selectedGriddata,
+                Lives.instance.GetErrorNumber());
+        }
+        else
+            Config.DeleteDataFile();
     }
 }

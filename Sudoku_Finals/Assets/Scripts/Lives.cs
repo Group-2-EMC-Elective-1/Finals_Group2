@@ -8,12 +8,35 @@ public class Lives : MonoBehaviour
     public GameObject game_over_popup;
     int lives_ = 0;
     int error_number_ = 0;
+    public static Lives instance;
+
+    private void Awake()
+    {
+        if (instance)
+            Destroy(instance);
+
+        instance = this;
+    }
 
     void Start()
     {
         lives_ = error_images.Count;
         error_number_ = 0;
         
+        if (GameSettings.instance.GetContinuePreviousGame())
+        {
+            error_number_ = Config.ErrorNumber();
+
+            for (int error = 0; error < error_number_; error++)
+            {
+                error_images[error].SetActive(true);
+            }
+        }
+    }
+
+    public int GetErrorNumber()
+    {
+        return error_number_;
     }
 
     private void WrongNumber()

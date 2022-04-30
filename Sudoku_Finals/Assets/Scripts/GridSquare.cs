@@ -15,6 +15,7 @@ public class GridSquare : Selectable, IPointerClickHandler, ISubmitHandler,IPoin
     private int squareIndex_ = -1;
     private bool has_default_value_ = false;
 
+    public int GetSquareNumber() { return number_; }
     public void SetHasDefaultValue(bool has_default) { has_default_value_ = has_default; }
     private bool GetHasDefaultValue() { return has_default_value_; }
 
@@ -32,6 +33,11 @@ public class GridSquare : Selectable, IPointerClickHandler, ISubmitHandler,IPoin
     public void SetCorrectNumber(int number)
     {
         corret_number_ = number;
+
+        if (number != 0 && number != corret_number_)
+        {
+
+        }
     }
     void Start()
     {
@@ -111,7 +117,6 @@ public class GridSquare : Selectable, IPointerClickHandler, ISubmitHandler,IPoin
 
     public void OnTriggerStay2D(Collider2D collision)
     {
-        Debug.Log(collision + "Is in my " + this.gameObject);
         selected = true;
     }
     public void OnTriggerExit2D(Collider2D collision)

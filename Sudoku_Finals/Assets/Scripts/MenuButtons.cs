@@ -34,4 +34,8 @@ public class MenuButtons : MonoBehaviour
         obj.SetActive(false);
     }
 
+    public void ContinuePreviousGame(bool continue_game)
+    {
+        GameSettings.instance.SetContinuePreviousGame(continue_game);
+    }
 }

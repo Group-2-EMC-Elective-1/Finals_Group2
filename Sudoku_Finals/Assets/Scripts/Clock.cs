@@ -64,6 +64,11 @@ public class Clock : MonoBehaviour
         GameEvent.OnGameOver -= OnGameOver;
     }
 
+    /*public Text GetCurrentTime()
+    {
+        return instance.delta_Time.ToString();
+    }*/
+
     public Text GetCurrentTimeText()
     {
         return textClock;
