@@ -9,8 +9,15 @@ public class GridSquare : Selectable, IPointerClickHandler, ISubmitHandler,IPoin
 {
     public GameObject numberTxt;
     private int number_ = 0;
+    private int corret_number_ = 0;
+
     private bool selected = false;
     private int squareIndex_ = -1;
+    private bool has_default_value_ = false;
+
+    public void SetHasDefaultValue(bool has_default) { has_default_value_ = has_default; }
+    private bool GetHasDefaultValue() { return has_default_value_; }
+
 
     public bool isSelected()
     {
@@ -22,6 +29,10 @@ public class GridSquare : Selectable, IPointerClickHandler, ISubmitHandler,IPoin
         squareIndex_ = index;
     }
 
+    public void SetCorrectNumber(int number)
+    {
+        corret_number_ = number;
+    }
     void Start()
     {
         selected = false;
@@ -68,9 +79,25 @@ public class GridSquare : Selectable, IPointerClickHandler, ISubmitHandler,IPoin
 
     public void OnSetNumber(int number)
     {
-        if (selected)
+        if (selected && has_default_value_ == false)
         {
             SetNumber(number);
+
+            if (number_ != corret_number_)
+            {
+                var colors = this.colors;
+                colors.normalColor = Color.red;
+                this.colors = colors;
+
+                GameEvent.OnWrongNumberMethod();
+            }
+            else
+            {
+                has_default_value_ = true;
+                var colors = this.colors;
+                colors.normalColor = Color.white;
+                this.colors = colors;
+            }
         }
     }
 
